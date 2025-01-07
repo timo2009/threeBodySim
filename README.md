@@ -30,7 +30,7 @@ Sie können diese mit dem folgenden Befehl installieren:
     -line: eine linie zu den Punkten wird angezeigt
     -slow: die Simulation läuft langsamer
 
-    Es öffnet sich ein 3D Fenster, inwelchem man sich mit er Maus bewegen kann.
+    Es öffnet sich ein 3D Fenster, inwelchem man sich mit der Maus bewegen kann.
 
 ### Funktionsweise
 
@@ -49,18 +49,18 @@ Sie können diese mit dem folgenden Befehl installieren:
 
 Sie können die Simulation anpassen, indem Sie die Anfangsbedingungen oder die Massen der Körper ändern. Suchen Sie nach der Funktion initial_conditions im Skript, um Positionen und Geschwindigkeiten zu modifizieren:
 ### Beispiel: Positionen
-r1 = [-1.0, 0.0, 0.0]
-r2 = [1.0, 0.0, 0.0]
-r3 = [0.0, 1.0, 0.0]
+    r1 = [-1.0, 0.0, 0.0]
+    r2 = [1.0, 0.0, 0.0]
+    r3 = [0.0, 1.0, 0.0]
 
 ### Beispiel: Geschwindigkeiten
-v1 = [0.0, -0.5, 0.0]
-v2 = [0.0, 0.5, 0.0]
-v3 = [0.0, 0.0, 0.5]
+    v1 = [0.0, -0.5, 0.0]
+    v2 = [0.0, 0.5, 0.0]
+    v3 = [0.0, 0.0, 0.5]
 
 ## Lizenz
 
-Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen finden Sie in der Datei LICENSE.
+Dieses Projekt steht unter der MIT-Lizenz.
 
 
 
