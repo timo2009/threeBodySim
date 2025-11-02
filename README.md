@@ -28,7 +28,10 @@ Sie können diese mit dem folgenden Befehl installieren:
     Folgende Argumente sind vorhanden:
     -help/-h: zeigt die Kommands an
     -line: eine linie zu den Punkten wird angezeigt
+    -shortline: eine linie mit der Länge MAX_LENGTH wird zu den Punkten angezeigt
     -slow: die Simulation läuft langsamer
+    -planet: ein Planet wird hinzugefügt
+
 
     Es öffnet sich ein 3D Fenster, inwelchem man sich mit der Maus bewegen kann.
 
