@@ -208,23 +208,23 @@ def update(frame):
 
     if args.shortline:
         if len(trail1) > MAX_LENGTH:
-            trail1 = trail1[-MAX_LENGTH:]  # Behalte nur die letzten MAX_LENGTH Punkte
+            trail1 = trail1[-MAX_LENGTH:]
         line1.set_data([pos[0] for pos in trail1], [pos[1] for pos in trail1])
         line1.set_3d_properties([pos[2] for pos in trail1])
 
         if len(trail2) > MAX_LENGTH:
-            trail2 = trail2[-MAX_LENGTH:]  # Behalte nur die letzten MAX_LENGTH Punkte
+            trail2 = trail2[-MAX_LENGTH:]
         line2.set_data([pos[0] for pos in trail2], [pos[1] for pos in trail2])
         line2.set_3d_properties([pos[2] for pos in trail2])
 
         if len(trail3) > MAX_LENGTH:
-            trail3 = trail3[-MAX_LENGTH:]  # Behalte nur die letzten MAX_LENGTH Punkte
+            trail3 = trail3[-MAX_LENGTH:]
         line3.set_data([pos[0] for pos in trail3], [pos[1] for pos in trail3])
         line3.set_3d_properties([pos[2] for pos in trail3])
 
         if args.planet:
             if len(trail_planet) > MAX_LENGTH:
-                trail_planet = trail_planet[-MAX_LENGTH:]  # Behalte nur die letzten MAX_LENGTH Punkte
+                trail_planet = trail_planet[-MAX_LENGTH:]
             line_planet.set_data([pos[0] for pos in trail_planet], [pos[1] for pos in trail_planet])
             line_planet.set_3d_properties([pos[2] for pos in trail_planet])
 
